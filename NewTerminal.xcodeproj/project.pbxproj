@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		848F06E7217C0B7B009CBA2D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 848F06E6217C0B7A009CBA2D /* main.c */; };
+		848F06F1217C0C0B009CBA2D /* getword.c in Sources */ = {isa = PBXBuildFile; fileRef = 848F06ED217C0C0A009CBA2D /* getword.c */; };
+		848F06F2217C0C0B009CBA2D /* p2.c in Sources */ = {isa = PBXBuildFile; fileRef = 848F06F0217C0C0B009CBA2D /* p2.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,10 @@
 
 /* Begin PBXFileReference section */
 		848F06E3217C0B7A009CBA2D /* NewTerminal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NewTerminal; sourceTree = BUILT_PRODUCTS_DIR; };
-		848F06E6217C0B7A009CBA2D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		848F06ED217C0C0A009CBA2D /* getword.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = getword.c; sourceTree = "<group>"; };
+		848F06EE217C0C0B009CBA2D /* p2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = p2.h; sourceTree = "<group>"; };
+		848F06EF217C0C0B009CBA2D /* getword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = getword.h; sourceTree = "<group>"; };
+		848F06F0217C0C0B009CBA2D /* p2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = p2.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,10 @@
 		848F06E5217C0B7A009CBA2D /* NewTerminal */ = {
 			isa = PBXGroup;
 			children = (
-				848F06E6217C0B7A009CBA2D /* main.c */,
+				848F06ED217C0C0A009CBA2D /* getword.c */,
+				848F06EF217C0C0B009CBA2D /* getword.h */,
+				848F06F0217C0C0B009CBA2D /* p2.c */,
+				848F06EE217C0C0B009CBA2D /* p2.h */,
 			);
 			path = NewTerminal;
 			sourceTree = "<group>";
@@ -118,7 +125,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				848F06E7217C0B7B009CBA2D /* main.c in Sources */,
+				848F06F2217C0C0B009CBA2D /* p2.c in Sources */,
+				848F06F1217C0C0B009CBA2D /* getword.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
